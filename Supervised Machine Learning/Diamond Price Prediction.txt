@@ -1,1 +1,37 @@
 Data source: https://www.kaggle.com/datasets/ronil8/diamond-price-prediction-dataset?resource=download
+
+
+Project Overview:
+This project aims to predict the price of diamonds using different regression algorithms. We use a dataset that contains 10 features, including characteristics of the diamond like its weight, quality, color, and dimensions. Our goal is to build models that can accurately predict a diamond's price based on these features.
+
+Dataset Information:
+
+The dataset includes the following features:
+
+Carat: Weight of the diamond.
+Cut: Quality of the cut (Fair, Good, Very Good, Premium, Ideal).
+Color: Color grade of the diamond (J is the worst, D is the best).
+Clarity: Clarity grade, measuring transparency (I1 is the worst, IF is the best).
+Table: Width of the top of the diamond.
+Price: Price of the diamond in US dollars (this is what we want to predict).
+X: Length of the diamond in millimeters.
+Y: Width of the diamond in millimeters.
+Z: Depth of the diamond in millimeters.
+Depth: Total depth percentage of the diamond.
+
+Project Steps:
+
+Data Cleaning: Handle missing values and prepare the data for analysis.
+Exploratory Data Analysis (EDA): Analyze the data to understand the relationships between features and the price.
+Feature Engineering: Create or modify features to improve the model's performance.
+Model Building: Use various regression algorithms (like Linear Regression, Decision Trees, Random Forest, etc.) to predict the price.
+Model Evaluation: Check how well the models perform using metrics like Mean Absolute Error (MAE) and R-squared.
+Visualization: Create graphs and charts to show the results and insights.
+
+Acknowledgements:
+This project uses a detailed dataset about diamonds to apply and compare different regression methods for price prediction.
+
+
+
+
+
